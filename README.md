@@ -1,6 +1,6 @@
-##Oh My ZNC
+## Oh My ZNC
 
-#This repo was forked from awyz/oh-my-znc (https://github.com/awyz/oh-my-znc)
+#### This repo was forked from awyz/oh-my-znc (https://github.com/awyz/oh-my-znc)
 1. Check out the source and setup the dot dir:
 
 ```
@@ -142,7 +142,7 @@ done
 sed -i 's/JoinDelay = 0/JoinDelay = 0\n                LoadModule = nickserv/g' znc.conf
 ```
 
-2.1 If you made the silly mistake of making all of your passwords for nickserv the same, try this:  
+2.1 If you made the unfortuante mistake of making all of your passwords for nickserv the same, try this:  
 ```
 for x in `cat networks`; do                 
     echo $x,$(dd if=/dev/urandom bs=1024 count=1 2> /dev/null | sha256sum | base64 | head -c 8 ; echo)
@@ -157,7 +157,7 @@ done
 
 ```
 
-2.2 Sometimes modules are buggy, and you can't paste commands without crashing znc, so set one then copy the moddata to all 
+2.2 Sometimes modules are a tad bugridden, and you can't paste commands without crashing znc, so set one then copy the moddata to all 
 of the others:
 
 ```
