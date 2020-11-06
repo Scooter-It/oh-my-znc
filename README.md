@@ -1,5 +1,6 @@
-![Screenshot](https://github.com/cloudkitsch/oh-my-znc/raw/master/images/snapshot1.png)
+##Oh My ZNC
 
+#This repo was forked from awyz/oh-my-znc (https://github.com/awyz/oh-my-znc)
 1. Check out the source and setup the dot dir:
 
 ```
